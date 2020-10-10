@@ -1,9 +1,13 @@
 <snippet>
   <content><![CDATA[
 
-## SASS_Build
+# SASS_Build
 
 A project to practice building SASS through breaking down the page.
+
+## Installation
+
+*SASS (https://sass-lang.com/install)
 
 ## Usage
 
