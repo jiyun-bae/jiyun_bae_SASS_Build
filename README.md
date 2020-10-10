@@ -9,6 +9,8 @@ SASS (https://sass-lang.com/install)
 
 ## Usage
 
+SASS allow me to write dry code that will be faster and easier to maintain, which is more efficient than just using CSS. 
+
 devided up SASS files in modules as 8 parts which are bottom, footer, main, mixin, nav, side, table, top. 
 this page has clearly divided side and footer sections so I thought it would be effective to divide it like this.
 table and nav are fulled with their specific informations.
@@ -23,13 +25,11 @@ top and bottom section is also has divided for clarify.
 5. merging EVERY branches.
 6. COMPLETE! Ta-da
 
-## History
-
-TODO: Write history
-
 ## Credits
 
-TODO: Write credits
+Dart Sass (1.27.0)
+
+Virtualstudio (1.50)
 
 ## License
 
