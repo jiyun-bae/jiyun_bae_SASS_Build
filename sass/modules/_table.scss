@@ -1,0 +1,73 @@
+table { 
+    color:#a4a9ae; 
+
+    tr:nth-child(2n+1) { background-color:#f0f2f5; }
+    tr:nth-child(2n+2) { background-color:#f6f8fa; }
+
+    th:first-child, td:first-child { padding-left:30px ;}
+}
+th {  
+    padding-bottom:20px; 
+    font-size:1.5rem; 
+    color:#999; 
+    background-color:transparent; 
+}
+td { 
+    font-size:1.45rem; 
+    padding:10px 0;
+
+    span { 
+        margin-left:12px; 
+        margin-right:6px; 
+        font-size:1.85rem; 
+        color:#ccc; 
+    }
+
+    span:nth-child(1) { margin-right:0; }
+    span:nth-child(2) { margin-right:0; }
+
+    i { font-size:5rem; }
+}
+
+.dayBox { 
+    background-color:#eaeaea; 
+    color:#9b9b9b; 
+    width:90%; 
+    height:275px; 
+
+    i { font-size:3rem; }
+
+    i:last-child { 
+        position:relative; 
+        top:-30px; 
+    }
+}
+.dayMarker { 
+    font-size:6rem; 
+    font-weight:700; 
+    position:relative; 
+    top:-20px; 
+}
+
+.stretchCell { width:210px; }
+.wideCell { width:30% ;}
+.locked { color:red; }
+.viewed { color:#a3cb7c; }
+.notViewed { color:#d6b600; }
+
+hr { border-color: #ccc; }
+
+.calendarStuff { 
+    margin:0;
+
+    hr { margin-top:0; }
+}
+
+.calendar, .trending, .sports { 
+    height:350px;
+    background-color: #959595;
+    color:white;
+    font-size: .8rem;
+}
+
+.fbActive { color:#666; }

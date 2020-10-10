@@ -1,0 +1,84 @@
+.bottomCalendar { 
+    position:relative; 
+    left:40px; 
+}
+
+.courseInfo { 
+    position:relative;
+    left:40px;
+    font-weight:300;
+    color:#969595;
+
+    h2 { 
+        font-weight:300; 
+        font-size:4.2rem;
+        padding-top:10px;
+    }
+
+    h3 { 
+        font-weight:300; 
+        margin-bottom:15px; 
+
+        i { 
+            margin-right:10px; 
+            cursor:pointer; 
+        }
+    }
+
+    hr { 
+        max-width:185px; 
+        margin-left:0; 
+    }
+}
+
+#messageBadge {
+    position:relative; 
+    background-color:#853c37;  
+    font-size:1rem; 
+    left:10px;
+    top:-2px; 
+    width:30; 
+    height:30;
+    text-align:center; 
+}
+.emptyCircle {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:#eff3f4;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;  
+    margin-left:10px; 
+}
+.discussionDrop { 
+    margin:10px 0; 
+    width:200px; 
+    padding-bottom:0; 
+}
+
+.listText { 
+    position:absolute; 
+    top:7px; 
+    left:60px; 
+    font-size:1.5rem; 
+    line-height:1.5rem; 
+
+    span { 
+        color:red;
+        font-size:1.5rem; 
+    }
+}
+
+.weeklySched {
+    position:relative;
+    left:40px;
+    color:#969595;
+    margin-top:30px;
+    margin-bottom:30px;
+
+    ul { margin-bottom:0; }
+}
+
+.courseStuff {margin:0; }
+#bottomPanel {margin:0; }
