@@ -1,7 +1,7 @@
 
 # SASS_Build / AJAX_Build
 
-SASS: A project to practice building SASS through breaking down the page.
+SASS: A project to practice building SASS through breaking down the page. <br>
 AJAX: A project to know the concept of ajax and the method of using request.
 
 ## Installation
