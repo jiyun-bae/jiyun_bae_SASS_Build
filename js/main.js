@@ -9,17 +9,18 @@
 
         debugger;
 
-        let currentUserText = currentUser.querySelector('.profPanelText').children;
-
-        currentUserText[1].textContent = Team[user].coursename;
-        currentUserText[2].textContent = Team[user].role;
-        currentUserText[3].textContent = Team[user].nickname;
-
+        document.getElementById("user").innerHTML = data.coursename;
+        debugger;
         // handleData
         // here's where you would call the function that puts the pieces on the page
     })
     .catch((err) => {
         console.log(err);
     })
+
+    $(document).ready(function(){
+          $("p").show("slow", function(){
+          });
+      });
 
 })();
