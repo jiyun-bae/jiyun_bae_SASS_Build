@@ -18,9 +18,4 @@
         console.log(err);
     })
 
-    $(document).ready(function(){
-          $("p").show("slow", function(){
-          });
-      });
-
 })();
