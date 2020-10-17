@@ -8,12 +8,20 @@ AJAX: A project to know the concept of ajax and the method of using request.
 
 SASS (https://sass-lang.com/install)
 
-## Plan / Path for AJAX_Build
+## Plan for AJAX_Build
 
 AJAX(Asynchronous Javascript and XML) is a front-end technique for interactive web applications. AJAX is used with XML, HTML, CSS, and javascript. <br>
 In this project, the contents on the profbox have to be shown by using AJAX. <br><br>
 To do this, we have created JSON file and request AJAX using Fetch(for me) in main.js in the class. At the first time, I tried textContent to show the contents, but it didn't work. After I got an hint, I started to use innerHTML in fetch. <br>
-I created innerHTML with the name of contents in json file. Also, I put different ids in html for p, ul. p is for coursename, coursecode and profname, and ul is for classtime. During this time, I put debugger in js and checked the flow of code if it is working properly. 
+I created innerHTML with the name of contents in json file. Also, I put different ids in html for p, ul. p is for coursename, coursecode and profname, and ul is for classtime. During this time, I put debugger in js and checked the flow of code if it is working properly.
+
+## Path for AJAX_Build
+
+1. Determine the browser family <br>
+2. Create an object --> allows the web page to request data from the server <br>
+3. Send the request to the server <br>
+4. Run javascipt function <br>
+5. Use the XML to update the web page in some way
 
 ## Usage
 
